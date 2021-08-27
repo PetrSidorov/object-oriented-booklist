@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Add book</h1>
+        <form class="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <label for="title">Author</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <label for="title">Number of copies</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Number of copies</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </div>
+<script src="/script-es5.js"></script>
+</body>
+</html>
